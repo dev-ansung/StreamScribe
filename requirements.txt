@@ -1,0 +1,21 @@
+# StreamScribe Requirements
+
+# YouTube audio extraction
+yt-dlp>=2023.7.6
+
+# Audio transcription
+openai-whisper>=20231117
+
+# Audio processing
+numpy>=1.24.0
+soundfile>=0.12.1
+
+# HTTP requests
+requests>=2.31.0
+
+# Progress bars and UI
+tqdm>=4.64.0
+
+# Optional: For better audio processing
+librosa>=0.10.0
+torch>=2.0.0
